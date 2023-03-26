@@ -1,4 +1,6 @@
-import HeadTitle from "@/components/head";
+import Body from "@/components/body";
+import HeadTitle from "@/container/head";
+import SideMenu from "@/components/sidemenu";
 
 const Home = () => {
   return (
@@ -8,14 +10,12 @@ const Home = () => {
         href="/assets/heroicons-solid_cube.svg"
       />
       <main className="flex flex-row content-center justify-center max-w-1440px h-auto mx-auto border-8 rounded-sm shadow-md ">
-        <div className="  basis-1/5 px-6 py-12 text-3xl bg-white">
-          <h2>Sidebar</h2>
-          <h2>Sidebar</h2>
-        </div>
-        <div className="flex-grow bg-slate-200 text-3xl text-green-500 font-bold underline ">
-          <h2>Main body</h2>
-          <h2>Main body</h2>
-        </div>
+        <section className="basis-1/5 px-6 py-12 text-3xl bg-white">
+          <SideMenu />
+        </section>
+        <section className="flex-grow py-4 px-16  bg-slate-200">
+          <Body />
+        </section>
       </main>
     </>
   );
