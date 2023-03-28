@@ -9,7 +9,7 @@ const Greeting = () => {
             Hey Alex, <img src="/assets/waving-hand.svg" alt="hi" />{" "}
           </h2>
           <h4 className="text-md font-normal text-zinc-500 ">
-            Here`&apos;s what&apos;s happening in your workspace
+            Here&apos;s what&apos;s happening in your workspace
           </h4>
         </div>
         <div className="flex justify-between px-5 py-3 h-14 w-80 bg-slate-300 rounded-lg text-lg">
